@@ -1,0 +1,111 @@
+  body{
+      background-image: url(https://www.orlando-florida.net/wp-content/uploads/2016/01/Germany-Pavilion.jpg);
+      background-size: cover;
+      Background-attachment: fixed;
+  }
+  .content{
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 75px auto;
+  }
+  .section{
+      border: 10px solid red;
+      height: 90vh;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-right: -20%;
+      transform: translate(-50%, -50%) 
+    }
+  .container{
+      border: 10px solid black;
+      background-color: rgba(255, 30, 0, 0.397);
+      max-width: 500px;
+      margin: 125px;
+      height: 20vh;
+      position: absolute;
+      top: 8%;
+      left: 25%;
+      margin-right: -20%;
+
+      }
+      .About_section{
+        border: 10px solid black;
+        background-color: darkgrey;
+        max-width: 800px;
+        height: 185vh;
+        position: absolute;
+        top: 100%;
+        margin-bottom: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+      }
+      #slider {
+          overflow: hidden;
+      }
+      #slider figure {
+position: relative;
+width: 500%;
+margin: 0;
+left: 0;
+animation: 5s slider infinite;
+      }
+  #slider figure img {
+    width: 2%;
+    height: 150px;
+    float: left;  
+  } 
+  @keyframes slider {
+     0% {
+         left: 0;
+     } 
+     20% {
+         left: 0;
+     }
+     25% {
+         left: -100%;
+     }
+  } 
+  #contact-form {
+    margin: auto;
+    margin-top: 100px;
+    width: 30vw;
+    background-color: grey;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    border-radius: .4em;
+  }
+  #contact-form input {
+    width: 90%;
+    margin-bottom: 20px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+  }
+  #contact-form h2 {
+    color: white;
+    font-size: 28px;
+    text-shadow: 2px 2px 2px black;
+  }
+  textarea {
+    resize: none;
+    height: 200px;
+    width: 90%;
+    margin-bottom: 30px;
+  }  
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.445);
+  color: white;
+  text-align: center;
+}
+
+
+
